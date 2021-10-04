@@ -1,0 +1,75 @@
+.hero{
+    background-color: #257CFF;
+    padding: 14px;
+    
+}
+
+h2{
+    font-size: 2rem;
+    font-weight: 800;
+    color: white;
+    padding: 34px 0;
+
+}
+
+p{
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    padding-bottom: 34px;
+}
+
+button{
+    background-color: rgb(250, 250, 250);
+    padding: 10px 20px;
+    color: #257CFF;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-bottom: 34px;
+    
+}
+
+button:hover{
+    background-color: rgb(133, 245, 68);
+    transition: 0.3s;
+    color: aliceblue;
+}
+
+.heroImg{
+    width: 90%;
+    height: auto;
+    padding-bottom: 50px;
+    margin: auto;
+}
+
+@media only screen and (min-width:720px) {
+    .hero{
+        padding: 0 54px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 100%;
+        
+    }
+
+    .heroImg{
+        width: 60%;
+        margin: auto;
+    }
+
+    .info{
+        padding-right: 44px;
+
+    }
+
+    h2{
+        font-size: 3.5rem;
+    }
+
+    p{
+        font-size: 1.15rem;
+        width:70%
+    }
+    
+}
