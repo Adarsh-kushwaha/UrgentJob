@@ -28,28 +28,58 @@ ul{
     background-color: rgb(243, 243, 243);
     padding: 0.7rem;
     border-radius: 5px;
+    
 
 }
 
-.top  {
+.bar .top  {
     width: 20px;
     height: 2px;
     background-color: #257CFF;
+    transition: ease-in-out 0.3;
 }
 
-.middle  {
-    width: 20px;
-    height: 2px;
-    margin-top: 5px;
-    background-color: #257CFF;
-}
-
-.bottom  {
+.bar .middle  {
     width: 20px;
     height: 2px;
     margin-top: 5px;
     background-color: #257CFF;
+    transition: ease-in-out 0.3;
 }
+
+.bar .bottom  {
+    width: 20px;
+    height: 2px;
+    margin-top: 5px;
+    background-color: #257CFF;
+    transition: ease-in-out 0.3;
+}
+
+.cross {
+    display: block;
+    background-color: rgb(243, 243, 243);
+    padding: 1.1rem 0.7rem;
+    border-radius: 5px;
+    
+}
+
+
+
+.cross .middle{
+    width: 20px;
+    height: 5px;
+    background-color: #257CFF;
+    transition: ease-in 0.4s;
+}
+
+.cross .top  {
+    display: none;
+}
+
+.cross .bottom  {
+    display: none;
+}
+
 
 @media only screen and (min-width:720px) {
     .nav{

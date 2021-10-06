@@ -1,0 +1,30 @@
+.mob{
+    background-color: aliceblue;
+    color: black;
+    padding: 14px 34px;
+    position: absolute;
+    top: 60px;
+    width: 100%;
+    
+    
+    
+}
+
+.mob ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+
+}
+.mob ul li {
+    padding: 10px 0;
+}
+
+@media only screen and (min-width:720) {
+
+    .mob{
+        display: none;
+    }
+    
+}
