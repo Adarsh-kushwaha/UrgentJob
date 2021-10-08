@@ -1,7 +1,71 @@
-.controGroup{
-    display: block;
+.controlGroup{
+    padding-top: 50px;
+   padding-bottom: 1000px;
+    height: 100%;
+    width: 90%;
+    margin: auto;
+   
+    
+  
 }
 
-.controlGroup p{
-    color: black;
+/* .name{
+    display: flex;
+    align-items: center;
+    
+} */
+
+.verticalForm{
+    display: flex;
+    flex-direction: column;
+}
+
+.controlGroup input{
+    border-bottom: 1px solid rgb(211, 211, 211);
+    margin-bottom: 12px;
+    padding: 7px 14px;
+    border-radius: 3px;
+    color: #444;
+}
+
+.controlGroup input:focus {
+    border-bottom: 1.5px solid rgba(1, 107, 107, 0.527);
+    outline: none;
+    background-color: #d6fffd4b;
+    
+}
+
+.controlGroup label{
+    font-weight: 500;
+    color: #292929;
+    
+}
+
+.formAction{
+    margin-top: 10px;
+    
+}
+
+.formAction button{
+    background-color: #257CFF;
+    width: 100%;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+}
+
+.formAction button:hover {
+   background-color: rgb(18, 252, 18);
+}
+
+.inputError:focus{
+    border-bottom: 1.5px solid rgba(1, 107, 107, 0.527);
+    outline: none;
+    background-color: #ffb2b24b;
+}
+
+.error{
+    color: rgb(255, 68, 68);
+    font-size: 15px;
+    
 }
