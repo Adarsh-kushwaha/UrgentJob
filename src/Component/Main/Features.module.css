@@ -1,0 +1,50 @@
+.featuresWrapper{
+    display: block;
+    margin: 0 34px;
+    
+}
+
+.richText h3{
+    font-size: 34px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 15px;
+
+}
+
+.richText p{
+    
+    color: rgb(119, 119, 119);
+    font-weight: 500;
+    font-size: 19px;
+    width: 90%;
+
+}
+
+.richText h4{
+    color: rgb(73, 255, 82);
+    font-weight: 500;
+    font-size: 19px;
+    margin-top: 34px;
+    margin-bottom: 15px;
+}
+
+@media only screen and (min-width:720px) {
+    .featuresWrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        gap: 15px;
+        place-items:center;
+        max-width: 90%;
+        margin: auto;
+        
+    }
+    .richText h3{
+        font-size: 48px;
+        font-weight: 700;
+        color: #333;
+        margin-bottom: 15px;
+    
+    }
+}
